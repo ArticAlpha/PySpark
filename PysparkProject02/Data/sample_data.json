@@ -1,0 +1,45 @@
+[
+    {
+        "order_id": 1,
+        "customer": {
+            "customer_id": "C001",
+            "name": "John Doe",
+            "address": {
+                "street": "123 Elm St",
+                "city": "Springfield",
+                "state": "IL"
+            }
+        },
+        "items": [
+            {"item_id": "I001", "product_name": "Laptop", "quantity": 1, "price": 1200},
+            {"item_id": "I002", "product_name": "Mouse", "quantity": 2, "price": 25}
+        ],
+        "order_date": "2024-08-01",
+        "metadata": {
+            "payment_method": "Credit Card",
+            "delivery_status": "Delivered"
+        }
+    },
+    {
+        "order_id": 2,
+        "customer": {
+            "customer_id": "C002",
+            "name": "Jane Smith",
+            "address": {
+                "street": "456 Oak St",
+                "city": "Metropolis",
+                "state": "NY"
+            }
+        },
+        "items": [
+            {"item_id": "I003", "product_name": "Smartphone", "quantity": 1, "price": 800},
+            {"item_id": "I004", "product_name": "Headphones", "quantity": 1, "price": 100},
+            {"item_id": "I002", "product_name": "Mouse", "quantity": 1, "price": 25}
+        ],
+        "order_date": "2024-08-03",
+        "metadata": {
+            "payment_method": "PayPal",
+            "delivery_status": "Shipped"
+        }
+    }
+]
